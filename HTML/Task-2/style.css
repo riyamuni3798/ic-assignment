@@ -24,7 +24,7 @@ header .menu ul {
 header .menu ul li {
     font-family:"Poppins", sans-serif ;
 font-weight: 400;
-font-size: 12px;
+font-size: 16px;
 line-height: 23px;
 letter-spacing: 1.5px;
 
@@ -157,4 +157,232 @@ color: #8B8C8C;
 
 } 
 
+
+
+
+/* count Section */
+
+.count-section{
+    background-image: url('./img/BG.png');
+    color: #fff;
+   min-height: 356px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+  }
+  
+  .count-section .count-text h1{
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  
+  }
+  
+  .count-section .count-text p{
+  font-family:"Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  }
+  
+  
+  .count-section .count-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5vw;
+  }
+
+  
+
+  /* Client Testimonials  */
+.client-testimonial{
+    background-color: #F4FBFF;
+    }
+    
+    .client-testimonial h1{
+      text-align: center;
+      font-family: "Playfair Display", serif;
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #2D2F30;
+    
+    }
+    
+    .client-testimonial .testimonials{
+    display: flex;
+      justify-content: space-around;
+    padding: 4vw;
+    
+    }
+    
+    .client-testimonial .testimonials .testimonial{
+      width: 40%;
+      display: flex;
+      row-gap: 2vw;
+      flex-direction: column;
+      align-items: center;
+      
+     
+    
+    
+    }
+    
+    .client-testimonial .testimonials .testimonial .testimonial-card{
+      background-color: #FFFFFF;
+      box-shadow: 0px 10px 20px 0px #29292A12;
+      border-radius: 12px;
+      padding: 2vw;
+    }
+    
+    .client-testimonial .testimonials .testimonial .testimonial-card h3{
+      font-family: "Poppins", sans-serif;
+     margin-bottom: 1vw;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    }
+    
+    .client-testimonial .testimonials .testimonial .testimonial-card p{
+      font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    
+    }
+    
+    .client-testimonial .testimonials .testimonial .testimonial-profile{
+      display: flex;
+    }
+    
+
+
+
+
+    .question-section{
+        display: flex;
+      }
+      
+      .question-section .question-text{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        
+        gap: 2vw;
+      }
+      
+      .question-section .question-text h1{
+        font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 0.5px;
+      color: #2D2F30;
+      
+      }
+      
+      .question-section .question-text p{
+        font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.5px;
+      color: #4f4f4f;
+      
+      }
+      
+      
+      
+      
+      .question-section .question-text a{
+      text-decoration: none;
+      background-color: #0F6E8C;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 16px 34px;
+      border-radius: 12px;
+      }
+      
+      .question-section .question-text a:hover{
+        background-color: #128eb4;
+        transition: ease 0.3s;
+      }
+
+
+
+
+
+      /* Footer section */
+footer{
+    background-color: #0F6E8C;
+  }
+   
+  
+  footer .main-footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns for larger screens */
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  footer .main-footer ul{
+    list-style: none;
+  }
+  
+  footer .main-footer h3{
+    color: #EEEFF4;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+  
+  footer .main-footer ul li{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color:  #EEEFF4;
+  
+  
+  }
+  
+  .copyright{ 
+    background-color:  #05546D;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .copyright .social-media{
+    display: flex;
+    gap: 15px;
+  } 
+  
+  .copyright .social-media i{
+    color: #fff;
+    background-color: #0F6E8C;
+    padding: 5px;
+    border-radius: 50%;
+  }
 
