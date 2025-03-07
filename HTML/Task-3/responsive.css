@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+  .formbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero h3 {
+    font-size: 14px;
+  }
+  .btnin {
+    padding: 10px 20px 15px 05px;
+  }
+
+  .section1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+  }
+
+  .gridsecall{
+ width: 100vw;
+
+}
+.faq{
+  height: 700px;
+}
+
+}
