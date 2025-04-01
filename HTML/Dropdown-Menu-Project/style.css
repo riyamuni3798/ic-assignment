@@ -1,0 +1,47 @@
+header {
+  background-color: tomato;
+}
+header nav#main-menu .nav-list {
+  display: flex;
+  gap: 1.5vw;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+header nav#main-menu .nav-list li {
+  padding: 12px 25px;
+  position: relative;
+}
+
+header nav#main-menu .nav-list li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.dropdown-menu,
+.deep-menu {
+  display: none;
+  position: absolute;
+  background-color: tomato;
+  padding: 0;
+  list-style: none;
+  left: 0;
+  top: 100%;
+  min-width: 160px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.deep-menu {
+  left: 100%;
+  top: 0;
+  background-color: tomato;
+}
+
+.dropdown:hover .dropdown-menu,
+.deep-dropdown:hover .deep-menu {
+  display: block;
+}

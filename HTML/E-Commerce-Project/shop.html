@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FURNITO </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      </head>
+<body>
+    <header class="header">
+        <div class="header-container">
+          <img class="logo" src="./img/logo.svg" alt="Furnito logo">
+          
+          <!-- Mobile Menu Button -->
+          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <img class="menu-icon" src="./img/icon-hamburger.svg" alt="">
+            <img class="close-icon" src="./img/icon-close.svg" alt="">
+          </button>
+      
+          <!-- Navigation -->
+          <nav class="nav" id="nav">
+            <ul class="nav-list">
+              <li><a href="./index.html" >Home</a></li>
+              <li><a href="./shop.html" class="active">Shop</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+            </ul>
+          </nav>
+      
+          <!-- User Actions -->
+          <div class="user-actions">
+            <a href="#" aria-label="Account"><img src="./img/mdi_account-alert-outline.svg" alt=""></a>
+            <a href="#" aria-label="Search"><img src="./img/akar-icons_search.svg" alt=""></a>
+            <a href="#" aria-label="Wishlist"><img src="./img/akar-icons_heart.svg" alt=""></a>
+            <a href="./cart.html" aria-label="Cart"><img src="./img/ant-design_shopping-cart-outlined.svg" alt=""></a>
+          </div>
+        </div>
+      </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <h2>Shop</h2>
+          <p><span>Home</span> > Shop</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-filters">
+      <div class="container">
+        <div class="filter-row">
+          <div class="filter-group">
+            <img src="./img/system-uicons_filtering.svg" alt="Filter">
+            <h4>Filter</h4>
+            <img src="./img/ci_grid-big-round.svg" alt="Grid">
+            <p>Showing 1–16 of 32 results</p>
+          </div>
+          
+          <div class="filter-group">
+            <h4>Show</h4>
+            <input type="text" placeholder="16" class="filter-input">
+            <h4>Sort By</h4>
+            <input type="text" placeholder="Default" class="filter-input">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+          <h2 class="section-title">Our Products</h2>
+          
+          <div class="product-grid">
+            <!-- Product 1 - 30% Discount -->
+            <article class="product-card">
+              <div class="product-badge discount">-30%</div>
+              <img src="./img/product1.png" alt="Syltherine" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Syltherine</h3>
+                <p class="product-desc">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 2 - Regular -->
+            <article class="product-card">
+              <img src="./img/product2.png" alt="Leviosa" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Leviosa</h3>
+                <p class="product-desc">Stylish cafe chair</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 2.500.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 3 - 50% Discount -->
+            <article class="product-card">
+              <div class="product-badge discount">-50%</div>
+              <img src="./img/product3.png" alt="Lolito" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Lolito</h3>
+                <p class="product-desc">Luxury big sofa</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 4 - New -->
+            <article class="product-card">
+              <div class="product-badge new">New</div>
+              <img src="./img/product4.png" alt="Respira" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Respira</h3>
+                <p class="product-desc">Outdoor bar table and stool</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 500.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 5 - Regular -->
+            <article class="product-card">
+              <img src="./img/product5.png" alt="Grifo" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Grifo</h3>
+                <p class="product-desc">Night lamp</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 1.500.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 6 - New -->
+            <article class="product-card">
+              <div class="product-badge new">New</div>
+              <img src="./img/product6.png" alt="Muggo" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Muggo</h3>
+                <p class="product-desc">Small Mug</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 150.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 7 - 50% Discount -->
+            <article class="product-card">
+              <div class="product-badge discount">-50%</div>
+              <img src="./img/product3.png" alt="Pingky" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Pingky</h3>
+                <p class="product-desc">Cute bed set</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </article>
+      
+            <!-- Product 8 - New -->
+            <article class="product-card">
+              <div class="product-badge new">New</div>
+              <img src="./img/product4.png" alt="Potty" class="product-img" loading="lazy">
+              <div class="product-info">
+                <h3 class="product-name">Potty</h3>
+                <p class="product-desc">Minimalist flower pot</p>
+                <div class="product-price">
+                  <span class="current-price">Rp 500.000</span>
+                </div>
+              </div>
+            </article>
+
+
+            <!-- Product 1 - 30% Discount -->
+            <article class="product-card">
+                <div class="product-badge discount">-30%</div>
+                <img src="./img/product1.png" alt="Syltherine" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Syltherine</h3>
+                  <p class="product-desc">Stylish cafe chair</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 2.500.000</span>
+                    <span class="original-price">Rp 3.500.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 2 - Regular -->
+              <article class="product-card">
+                <img src="./img/product2.png" alt="Leviosa" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Leviosa</h3>
+                  <p class="product-desc">Stylish cafe chair</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 2.500.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 3 - 50% Discount -->
+              <article class="product-card">
+                <div class="product-badge discount">-50%</div>
+                <img src="./img/product3.png" alt="Lolito" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Lolito</h3>
+                  <p class="product-desc">Luxury big sofa</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 7.000.000</span>
+                    <span class="original-price">Rp 14.000.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 4 - New -->
+              <article class="product-card">
+                <div class="product-badge new">New</div>
+                <img src="./img/product4.png" alt="Respira" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Respira</h3>
+                  <p class="product-desc">Outdoor bar table and stool</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 500.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 5 - Regular -->
+              <article class="product-card">
+                <img src="./img/product5.png" alt="Grifo" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Grifo</h3>
+                  <p class="product-desc">Night lamp</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 1.500.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 6 - New -->
+              <article class="product-card">
+                <div class="product-badge new">New</div>
+                <img src="./img/product6.png" alt="Muggo" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Muggo</h3>
+                  <p class="product-desc">Small Mug</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 150.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 7 - 50% Discount -->
+              <article class="product-card">
+                <div class="product-badge discount">-50%</div>
+                <img src="./img/product3.png" alt="Pingky" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Pingky</h3>
+                  <p class="product-desc">Cute bed set</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 7.000.000</span>
+                    <span class="original-price">Rp 14.000.000</span>
+                  </div>
+                </div>
+              </article>
+        
+              <!-- Product 8 - New -->
+              <article class="product-card">
+                <div class="product-badge new">New</div>
+                <img src="./img/product4.png" alt="Potty" class="product-img" loading="lazy">
+                <div class="product-info">
+                  <h3 class="product-name">Potty</h3>
+                  <p class="product-desc">Minimalist flower pot</p>
+                  <div class="product-price">
+                    <span class="current-price">Rp 500.000</span>
+                  </div>
+                </div>
+              </article>
+
+          </div>
+          
+          <div class="load-more">
+            <button class="btn-outline">Show More</button>
+          </div>
+        </div>
+      </section>
+
+    <section class="pagination">
+      <div class="container">
+        <div class="page-nav">
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">Next</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <img src="./img/trophy.svg" alt="Quality">
+            <div class="feature-text">
+              <h3>High Quality</h3>
+              <p>crafted from top materials</p>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <img src="./img/guarantee.svg" alt="Warranty">
+            <div class="feature-text">
+              <h3>Warranty Protection</h3>
+              <p>Over 2 years</p>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <img src="./img/shipping.svg" alt="Shipping">
+            <div class="feature-text">
+              <h3>Free Shipping</h3>
+              <p>Order over 150 $</p>
+            </div>
+          </div>
+          
+          <div class="feature-card">
+            <img src="./img/customer-support.svg" alt="Support">
+            <div class="feature-text">
+              <h3>24 / 7 Support</h3>
+              <p>Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <img src="./img/Funiro..svg" alt="Funiro">
+          <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Payment Options</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Privacy Policies</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <form class="newsletter">
+            <input type="email" placeholder="Enter Your Email Address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      
+      <p class="copyright">2023 &copy; furino. All rights reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
